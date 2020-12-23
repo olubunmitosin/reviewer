@@ -10,7 +10,7 @@ Reviewer system for laravel 5.*
 First, pull in the package through Composer.
 
 ```js
-composer require trexology/reviewrateable
+composer require kesty/reviewer
 ```
 
 And then include the service provider within `app/config/app.php`. (Skip this step if you are on Laravel 5.5 or above)
