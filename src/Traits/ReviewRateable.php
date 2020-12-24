@@ -104,8 +104,9 @@ trait Reviewer
     /**
      *
      * @return mixed
+     * @param $round
      */
-    public function ratingMeta($round= null) {
+    public function ratingMeta( $round = null) {
      return [
        "avg" => $this->averageRating($round),
        "count" => $this->countRating(),
