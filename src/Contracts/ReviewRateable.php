@@ -4,7 +4,7 @@ namespace Kesty\Reviewer\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 
-interface Reviewer
+interface ReviewRateable
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphMany

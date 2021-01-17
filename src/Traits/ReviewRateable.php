@@ -5,7 +5,7 @@ namespace Kesty\Reviewer\Traits;
 use Kesty\Reviewer\Models\Rating;
 use Illuminate\Database\Eloquent\Model;
 
-trait Reviewer
+trait ReviewRateable
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphMany
