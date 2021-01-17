@@ -38,7 +38,7 @@ use Kesty\Reviewer\Contracts\ReviewRateable;
 use Kesty\Reviewer\Traits\ReviewRateable as ReviewerTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model implements Reviewer
+class Post extends Model implements ReviewRateable
 {
     use ReviewerTrait;
 }
