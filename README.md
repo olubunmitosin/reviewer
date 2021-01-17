@@ -34,8 +34,8 @@ php artisan vendor:publish --provider="Kesty\Reviewer\ReviewerServiceProvider" &
 
 namespace App;
 
-use Kesty\Reviewer\Contracts\Reviewer;
-use Kesty\Reviewer\Traits\Reviewer as ReviewerTrait;
+use Kesty\Reviewer\Contracts\ReviewRateable;
+use Kesty\Reviewer\Traits\ReviewRateable as ReviewerTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model implements Reviewer
